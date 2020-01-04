@@ -1,0 +1,51 @@
+i{
+	font-style: normal;
+	color: orange !important;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+body{
+	background-image: url("/Users/User/Desktop/gdz/gdz/img/banner-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.nav-item{
+	color: black;
+	margin-right: 20px;
+}
+.nav-item > a:hover {
+	color: #dc3545;
+}
+/* line 24, E:/172 Etrain Education/172_Etrain_Education_html/sass/_button.scss */
+.btn_1 {
+  display: inline-block;
+  padding: 13.5px 45px;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #fff;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  text-transform: capitalize;
+  background-size: 200% auto;
+  border: 1px solid transparent;
+  box-shadow: 0px 12px 20px 0px rgba(255, 126, 95, 0.15);
+  background-image: linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
+  margin-left: 20px;
+}
+
+/* line 38, E:/172 Etrain Education/172_Etrain_Education_html/sass/_button.scss */
+.btn_1:hover {
+  color: #fff !important;
+  background-position: right center;
+  box-shadow: 0px 10px 30px 0px rgba(193, 34, 10, 0.2);
+  text-decoration: none;
+}
